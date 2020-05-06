@@ -1,0 +1,1090 @@
+/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+ 
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+    margin-top: 20px;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+ /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+        background: url(../img/caballos.jpg) center fixed no-repeat;
+
+}
+
+
+.inicial {
+        text-align: center;
+        margin-top: 300px;
+}
+
+.inicial a {
+            text-decoration: none;
+            color: white;
+            display: block;
+}
+
+.nav-item{
+          font-size: 20px;
+          padding: 5px;
+          margin: 0 30px;
+          
+
+}
+
+.navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+        background: #212529 !important;
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f79239;
+    padding-top: 13px ;
+    padding-bottom: 13px ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background:#f79239;
+    color: #212529 ;
+   
+}
+
+.nav-item .active {
+    background:#f79239;
+    color: red ;
+   
+}
+
+
+
+.contorno{
+          color: red;
+}
+.collapse{
+        position: relative;
+}
+
+.navbar-nav {
+           margin: auto;
+            
+}
+
+.ir-arriba{
+  display: none;
+  padding: 20px;
+  background:#024959;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+
+.CajaFotos{
+          width: 100%;
+          padding: 20px;
+}
+
+.durmiendo {
+             width: 69%;
+             margin: auto;
+}
+
+.durmiendo img {
+                width: 100%;
+              }
+
+.durmiendo h4{
+              text-align: center;
+              background: #212529;
+              color: #f79239;
+              padding: 6px;
+              margin: 0;
+} 
+
+#dosfotos{
+        width: 70%;
+        margin: auto;
+        display: flex;
+
+}  
+
+
+.corriendo {
+          width: 50%;
+          padding: 5px;
+}
+
+.corriendo img{
+              width: 100%;
+}
+
+.corriendo .tituloImagen1{
+              text-align: center;
+              background: #212529;
+              color: #f79239;
+              padding: 24px;
+              font-size: 25px;
+}
+
+.reproduccion {
+            width: 50%;
+            padding: 5px;
+}
+.reproduccion img{
+                width: 100%;
+}
+
+.reproduccion .tituloImagen2{
+               text-align: center;
+               background: #212529;
+               color: #f79239;
+               padding: 24px;
+               font-size: 24px;
+      
+}
+
+.contenido1{
+          display: flex;
+          margin: 20px 0;
+}
+
+
+.asideGeneral{
+            width: 30%;
+            margin-right: 20px;
+            padding: 5px;
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.aside{
+      padding: 20px;
+
+}
+
+.aside h5{
+          text-align: center;
+}
+
+.aside h5 a {
+  color: black;
+  text-decoration: none;
+}
+
+.aside img {
+            width: 100%;
+}
+
+
+.alerta {
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: green;
+    box-shadow: 0 1px 3px #ccc;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.alerta-error{
+  background: red;
+}
+
+.footer{
+        background: #262626;
+}
+
+.copy{
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+}
+
+
+.direccion{
+            
+            padding: 35px 0;
+
+}
+
+.direccion p{
+            margin-bottom: 0;
+}
+
+
+
+#carousel{
+        width: 100%;
+        margin:auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+   
+
+}
+
+.contenidoGeneral{
+          margin: 15px;
+}
+
+
+
+.form{
+      display: flex;
+      flex-direction: column;
+
+}
+
+.newslatter , .direccion{
+  padding: 35px;
+}
+
+.newslatter h4 {
+  color: white;
+}
+.suscripcion {
+  color: white; 
+  text-align: center;
+
+}
+
+.suscripcion2{
+  margin-top: 30px;
+}
+
+.susc {
+  margin: 12px 0;
+}
+
+.botonSusc {
+  width: 236%;
+}
+
+#botonSus2{
+      background: #f79239;
+      border: none;
+      padding: 6px;
+      color: white;
+}
+
+.direccion h4{
+        color: white;
+        margin-bottom: 20px;
+}
+
+.normal{
+        color: white;
+}
+
+.bold{
+      font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #f79239;
+}
+
+.texto{
+      margin-bottom: 20px;
+}
+
+.minifooter{
+          display: flex;
+          justify-content: space-around;
+          
+}
+
+.redesSociales{
+              color: #f79239;
+              text-align: center;
+              padding: 20px;
+              margin-top: 47px;
+}
+.formulario{
+          width: 35%;
+          padding: 35px;
+          color: white;
+}
+
+
+
+#enviar {
+  background: #f79239;
+  border:none;
+  color: white;
+  padding: 5px;
+}
+
+#enviar:hover {
+    background: #FABD88;
+
+}
+.logo{
+    padding: 0;
+}
+
+
+.razas h1{
+          margin: 0;
+          padding: 10px;
+}
+
+.contenedorRazas{
+              display: flex;
+}
+
+.fotosRazas{
+              width: 81%;
+              margin: 0 15px 15px 0;
+              box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.fotosRazas:hover{
+                      background-color: rgba(0,0,0,0.1);
+               
+}
+
+
+
+.razas p{
+          padding: 0 75px;
+}
+
+.fotosRazas h2{
+              text-align: center;
+}
+
+.fotosRazas p {
+              text-align: justify;
+              padding: 10px;
+              height: 258px;
+}
+
+.fotosRazas .boton{
+    text-align: center;
+    width: 31%;
+    border-radius: 5%;
+    background: #BDBDBD;
+    margin-bottom: 10px;
+    margin-left: 105px;
+    padding: 5px;
+  
+  
+}
+
+.fotosRazas .boton a{
+                  color: black;
+                  font-weight: bold;
+}
+.fotosRazas .boton a:hover{
+                          text-decoration: none;
+                          color: white;
+}
+
+.informe {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.minidiv{
+  width: 50%;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.lista {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 23px;
+}
+.lista a {
+  text-decoration: none;
+  color: black;
+}
+
+.lista ul {
+  padding-bottom: 24px;
+}
+
+.fotos{
+  width: 40%;
+}
+
+#central {
+  padding: 15px;
+
+}
+.equitacion {
+  display: flex;
+  margin: 15px 0;
+
+
+ 
+}
+
+ .textoEquitacion {
+      background: black;
+      color: white;
+      text-align: justify;
+      padding: 94px 27px;
+      width: 50%;
+ } 
+
+.imagen {
+  width: 50%;
+}
+
+
+
+ .textoEquitacion h2 {
+  text-align: center;
+ }
+
+ #footerEqui {
+  background: #262626;
+ }
+
+.container nav {
+      margin: 25px 0;
+     display: flex;
+
+     
+}
+
+ .btn-menu {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 20px;
+  transition: .3s ease all;
+}
+
+ .btn-menu:hover {
+  border:1px solid #828282;
+  color: #828282;
+ 
+}
+
+ .banner {
+  width: 100%;
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+}
+
+
+.card-body .boton{
+  background: #808080;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+
+
+}
+
+/* PUSHBAR*/
+
+.pushbar {
+  background: #000;
+  color: white;
+  padding: 20px;
+
+}
+
+
+.pushbar-carrito .btn-cerrar{
+  /*text-align: left;*/
+}
+
+.pushbar-carrito .btn-cerrar button{
+  background: none;
+  color: #808080;
+  border:none;
+  cursor:pointer;
+  font-size: 20px;
+}
+
+
+.pushbar-carrito {
+  background: #000;
+  width: 365px;
+  font-size: 18px ;
+  font-weight: 300;
+}
+
+.pushbar-carrito .titulo {
+  font-size: 22px;
+  padding: 20px;
+  border-bottom: 1px solid rgba(112,112,112,.60);
+  margin-bottom: 20px;
+  color: #AAAAAA;
+}
+
+.pushbar-carrito .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgba(112,112,112,.60);
+}
+
+.pushbar-carrito .item img{
+  width: 85px;
+
+}
+
+.pushbar-carrito .textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #AAAAAA;
+}
+
+.pushbar-carrito .total {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1920px){
+	body {
+		background: green ;
+	}
+}
+
+@media screen and (max-width: 1280px){
+	      .nav-link {
+                 text-align: center;
+          }
+
+         .navbar-toggler {
+            background: #f79239;
+           } 
+ 
+
+
+}
+
+@media screen and (max-width: 800px){
+	
+          .nav-link {
+                 text-align: center;
+          }
+
+          .navbar-toggler {
+            background: #f79239;
+           } 
+
+	       .durmiendo {
+          width: 100%;
+         }
+
+        #dosfotos {
+          width: 100%;
+        }
+
+
+        .minifooter {
+             display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+        }
+        
+
+        .direccion {
+
+                order: 1;
+        }
+
+        .formulario {
+          width: 55%;
+        }
+
+        .newslatter {
+          display: flex;
+          margin-top: 55px;
+
+        }
+
+        .redesSociales{
+          margin: 0;
+        }
+
+        /*RAZAS*/
+
+        .contenedorRazas {
+          flex-wrap: wrap;
+        }
+
+        .fotosRazas {
+          width: 100%;
+          padding: 25px;
+        }
+
+        .fotosRazas img{
+          width: 100%;
+        }
+
+        .fotosRazas .boton {
+          margin: auto;
+        }
+
+        .razas p {
+          padding: 35px;
+          text-align: justify;
+        }
+
+        /*CUIDADOS*/
+
+        .fotos {
+          display: none;
+        }
+
+        .minidiv{
+          width: 100%;
+        }
+	}
+
+
+@media screen and (max-width: 480px){
+		
+		.navbar {
+			display: block;
+      padding: 20px;
+		}
+		
+		.navbar img{
+			display: block;
+			margin: auto;
+
+		}
+
+   .navbar-toggler {
+    background: #f79239;
+   } 
+
+  .nav-link {
+    text-align: center;
+  }
+
+		#dosfotos, .corriendo, .reproduccion, .durmiendo {
+			display: block;
+			width: 100%;
+		}
+		.asideGeneral {
+			display: none;
+		}
+
+		.minifooter {
+			display: flex;
+      flex-direction: column;
+			width: 100%;
+
+		}
+
+		 .newslatter {
+			width: 100%;
+      flex-direction: column;
+      order: 3;
+		}
+
+
+      .formulario {
+      width: 100%;
+      /*flex-direction: column;*/
+     
+    }
+
+    
+
+		.direccion {
+			text-align: center;
+			font-size: 20px;
+      order: 2;
+		}
+
+		/* HISTORIA */
+
+		.colum{
+				margin:10px auto;
+		}
+
+
+
+		/* RAZAS*/
+
+		.razas p {
+			padding: 0 35px;
+			text-align: justify;
+		}
+
+		.contenedorRazas{
+            		  display: block;
+		}
+
+		.fotosRazas {
+			width: 100%;
+			padding: 35px;
+ 
+			
+		}
+
+		.fotosRazas img {
+			width: 100%;
+
+		}
+
+		.fotosRazas p {
+			padding: 0 10px;
+		}
+
+
+		.informe img {
+			display: none;
+		}
+
+		.informe p {
+			text-align: justify;
+		}
+
+		#central {
+			padding: 0;
+		}
+	
+		.equitacion {
+			display: block;
+			margin: 0;
+		}
+
+		.textoEquitacion {
+			width: 100%;
+			padding: 20px;
+		}
+
+		.imagen {
+			width: 100%;
+		}
+		
+		.dos {
+			padding-top: 50px;
+
+		}
+		.redesSociales{
+			margin: 0;
+		}
+	}
+
+
+
+
+
+
+ /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+ .hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+/*
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+ 
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+   @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+ 
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+   @media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
